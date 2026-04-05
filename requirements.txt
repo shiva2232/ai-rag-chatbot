@@ -1,3 +1,7 @@
 torch
 PyPDF2
 transformers
+sentence_transformers
+numpy
+gpt4all
+plyer

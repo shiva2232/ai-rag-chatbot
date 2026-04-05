@@ -1,14 +1,11 @@
 import time
 
 from gpt4all import GPT4All
-from sentence_transformers import SentenceTransformer
-import faiss
 import numpy as np
 
 from caching import get_cached_model
 from notify import notify_user
 from websearch import web_search
-import os
 
 # Load better model (IMPORTANT)
 llm=GPT4All("qwen2-1_5b-instruct-q4_0.gguf")  # reduce from 4096 → saves RAM
