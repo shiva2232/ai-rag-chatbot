@@ -1,0 +1,3 @@
+torch
+PyPDF2
+transformers
